@@ -35,8 +35,10 @@ from datetime import datetime
 from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
-n = input("Hello, what is your name? ")
+n = str(input("Hello, what is your name? "))
 m = float(input("Hi {0}, what was the name of the month you were born in? ")).format(n)
 y = float(input("And what year were you born in, {0}? "))
+"""
 d = float(input("And the day? ")
 if m == 
+"""
