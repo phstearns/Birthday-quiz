@@ -51,7 +51,7 @@ elif m in ["September", "October", "November"]:
     season = ("fall")
 print(season)
 
-if y>= 1980 or y<= 1989:
+if y is [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989]:
     type = ("eighties")
 elif y>= 1990 or y<= 1999:
     type = ("nineties")
