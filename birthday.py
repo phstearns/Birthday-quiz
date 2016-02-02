@@ -39,6 +39,19 @@ todaydate = datetime.today().day
 n = input("Hello, what is your name? ")
 m = input("Hi " + n + " , what was the name of the month you were born in? ")
 y = float(input("And what year were you born in, " + n + "? "))
+d = float(input("And the day? "))
+January = 1
+February = 2
+March = 3 
+April = 4
+May = 5
+June = 6
+July = 7
+August = 8
+September = 9
+October = 10
+November = 11
+December = 12
 """
 d = float(input("And the day? ")
 if m == 
