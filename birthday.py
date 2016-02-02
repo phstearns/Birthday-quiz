@@ -55,8 +55,8 @@ if y is [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989]:
     type = ("eighties")
 elif y is [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]:
     type = ("nineties")
-elif y > 2000:
+elif y >= 2000:
     type = ("two thousands")
-elif y < 1980:
+elif y <= 1980:
     type = ("Stone Age")
 print(type)
