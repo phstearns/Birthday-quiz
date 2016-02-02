@@ -47,7 +47,7 @@ elif m in ["March", "April", "May"]:
     season = ("spring")
 elif m in ["June", "July", "August"]:
     season = ("summer")
-else m in ["September", "October", "November"]:
+elif m in ["September", "October", "November"]:
     season = ("fall")
 print(season)
 """    
