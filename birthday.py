@@ -40,34 +40,23 @@ n = input("Hello, what is your name? ")
 m = input("Hi " + n + " , what was the name of the month you were born in? ")
 y = float(input("And what year were you born in, " + n + "? "))
 d = float(input("And the day? "))
-January = 1
-February = 2
-March = 3 
-April = 4
-May = 5
-June = 6
-July = 7
-August = 8
-September = 9
-October = 10
-November = 11
-December = 12
 
-if m == "December" or m == "January" or m == "February":
-    season = "winter"
-elif m == "March" or m == "April" or m == "May":
-    season = "spring"
-elif m == "June" or m == "July" or m == "August":
-    season = "summer"
-else m == "September" or m == "October" or m == "November":
-    season = "fall"
+if m in ["December", "January", "February"]:
+    season = ("winter")
+elif m in ["March", "April", "May"]:
+    season = ("spring")
+elif m in ["June", "July", "August"]:
+    season = ("summer")
+else m in ["September", "October", "November"]:
+    season = ("fall")
+print(season)
 """    
 if y>= 1980 or y<= 1989:
-
+    eighties
 if y>= 1990 or y<= 1999:
-
+    nineties
 if y>= 2000:
-
+    two thousands
 if y<= 1980:
-
+    Stone Age
 """
