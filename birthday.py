@@ -52,7 +52,22 @@ September = 9
 October = 10
 November = 11
 December = 12
-"""
-d = float(input("And the day? ")
-if m == 
+
+if m == "December" or m == "January" or m == "February":
+    season = "winter"
+elif m == "March" or m == "April" or m == "May":
+    season = "spring"
+elif m == "June" or m == "July" or m == "August":
+    season = "summer"
+else m == "September" or m == "October" or m == "November":
+    season = "fall"
+"""    
+if y>= 1980 or y<= 1989:
+
+if y>= 1990 or y<= 1999:
+
+if y>= 2000:
+
+if y<= 1980:
+
 """
