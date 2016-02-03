@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Payton
-Credit: Andreas
+Credit: Andreas, Daniel, Avery, Ethan, Mr. Kurtz
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -59,4 +59,4 @@ elif y >= 2000:
 elif y <= 1980:
     type = "Stone Age"
 
-print(" + n "",you are a "" + season + ""baby of the ""+ type + ")
+print(  n + ", you are a " + season + " baby of the " + type + ".")
