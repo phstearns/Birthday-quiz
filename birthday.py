@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Payton
-Credit: Andreas, Daniel, Avery, Ethan, Mr. Kurtz
+Credit: Andreas, Daniel, Avery, Ethan, Mr. Dennison, Feliz Hannukah
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -42,13 +42,13 @@ y = float(input("And what year were you born in, " + n + "? "))
 d = float(input("And the day? "))
 
 if m in ["December", "January", "February"]:
-    season = ("winter")
+    season = "winter"
 elif m in ["March", "April", "May"]:
-    season = ("spring")
+    season = "spring"
 elif m in ["June", "July", "August"]:
-    season = ("summer")
+    season = "summer"
 elif m in ["September", "October", "November"]:
-    season = ("fall")
+    season = "fall"
 
 if y in [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989]:
     type = "eighties"
