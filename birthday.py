@@ -35,6 +35,7 @@ from datetime import datetime
 from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
+month = month_name[todaymonth]
 
 n = input("Hello, what is your name? ")
 m = input("Hi " + n + ", what was the name of the month you were born in? ")
@@ -59,4 +60,9 @@ elif y >= 2000:
 elif y <= 1980:
     type = "Stone Age"
 
-print(  n + ", you are a " + season + " baby of the " + type + ".")
+
+if month == m and todaydate == d:
+    print("Happy Birthday!")
+else:
+     print(  n + ", you are a " + season + " baby of the " + type + ".")
+
