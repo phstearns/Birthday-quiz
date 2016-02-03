@@ -59,4 +59,4 @@ elif y >= 2000:
 elif y <= 1980:
     type = "Stone Age"
 
-print(" + n ",you are a " + season + "baby of the "+ type + .")
+print(" + n "",you are a "" + season + ""baby of the ""+ type + ")
