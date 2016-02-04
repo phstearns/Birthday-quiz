@@ -63,11 +63,8 @@ elif y <= 1980:
 if m in ["October"] and d in [31]:
     print("Happy Halloween!")
 
-if month == m and todaydate == d:
+elif month == m and todaydate == d:
     print("Happy Birthday!")
 
-if oct == m and d == 31:
-    print("Happy Halloween!")
-
-else:
+elif:
      print(  n + ", you are a " + season + " baby of the " + type + ".")
