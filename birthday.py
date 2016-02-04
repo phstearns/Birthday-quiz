@@ -61,7 +61,7 @@ elif y <= 1980:
     type = "Stone Age"
 
 if m in ["October"] and d in [31]:
-    print("Happy Halloween!")
+    print("You were born on Halloween!")
 
 elif month == m and todaydate == d:
     print("Happy Birthday!")
