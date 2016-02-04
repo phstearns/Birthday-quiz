@@ -60,7 +60,8 @@ elif y >= 2000:
 elif y <= 1980:
     type = "Stone Age"
 
-oct = month_name[11]
+if m in ["October"] and d in [31]:
+    print("Happy Halloween!")
 
 if month == m and todaydate == d:
     print("Happy Birthday!")
