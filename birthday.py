@@ -64,7 +64,7 @@ if m in ["October"] and d in [31]:
     print("You were born on Halloween!")
 
 elif month == m and todaydate == d:
-    print("Happy Birthday!")
+    print("Happy birthday!")
 
 else:
      print(  n + ", you are a " + season + " baby of the " + type + ".")
