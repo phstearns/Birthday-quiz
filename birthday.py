@@ -66,5 +66,5 @@ if m in ["October"] and d in [31]:
 elif month == m and todaydate == d:
     print("Happy Birthday!")
 
-elif:
+else:
      print(  n + ", you are a " + season + " baby of the " + type + ".")
